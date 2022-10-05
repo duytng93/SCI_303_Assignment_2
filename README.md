@@ -8,4 +8,4 @@ For Assignment 2_Question 1:\
 For Assignment 2_Question 2:\
    Run Assignment 2_Question 1.sln using microsoft visual studio 2022\
    There is no need for user input\
-   Screen shot: https://user-images.githubusercontent.com/113152725/194063395-c3c53842-e46c-4748-bc77-bfe4147f16de.jpg 
+   Screen shot: https://user-images.githubusercontent.com/113152725/194182592-7683f302-51d5-470e-90de-85945b7d552f.jpg 

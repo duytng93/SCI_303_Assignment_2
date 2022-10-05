@@ -8,7 +8,7 @@ public:
 	Employee(const std::string name) {
 		fullName = name;
 	};
-	virtual double weeklySalary() const = 0;
+	virtual double weeklySalary() const = 0;			//using virtual key word for polymorphism
 	virtual double healthCareContribution() const = 0;
 	virtual double vacationLength() const = 0;
 	virtual void displayInfo() const = 0;

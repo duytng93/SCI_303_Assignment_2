@@ -73,7 +73,7 @@ int main()
 		}
 	}
 	
-	newNumber = read_int("Enter the new number: ");		// read value for new number
+	newNumber = read_int("Enter the new number: ");		// read value for new number, definition of this function is at the bottom of this file
 
 	modify(array, size, index, newNumber);				// A function that can modify the value of an integer when called
 	cout << endl;										// with the index of the integer in the array
@@ -84,7 +84,7 @@ int main()
 
 
 
-	newNumber2 = read_int("Enter a number to add to the array: ");		// read value for new number
+	newNumber2 = read_int("Enter a number to add to the array: ");		// read value for new number, definition of this function is at the bottom of this file
 	addnewNumber(array, size, newNumber2);				//    A function that adds a new integer 
 	cout << endl;										//    to the end of the array.
 

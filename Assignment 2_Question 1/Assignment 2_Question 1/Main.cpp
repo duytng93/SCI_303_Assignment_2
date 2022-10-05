@@ -71,6 +71,10 @@ int main()
 			std::cerr << "The chosen index number is out of range. Please try again!" <<endl<<endl;
 			cout << "====================" << endl << endl;
 		}
+		catch (...) {
+			cout << "Undefined exception occurred! Please try again!";
+			cout << "====================" << endl << endl;
+		}
 	}
 	
 	newNumber = read_int("Enter the new number: ");		// read value for new number, definition of this function is at the bottom of this file
@@ -116,11 +120,15 @@ int read_int(const string& prompt)					// definition for read_int function
 			cin >> num;
 			return num;
 		}
-		catch (ios_base::failure& ex) {
+		catch (ios_base::failure& ex) {							
 			cout << "Entered input is not an integer! Please try again!"<<endl<<endl;
 			cout << "====================" << endl << endl;
 			cin.clear();
 			cin.ignore(numeric_limits<int>::max(), '\n');
+		}
+		catch (...) {
+			cout << "Undefined exception occurred! Please try again!";
+			cout << "====================" << endl << endl;
 		}
 	}
 }

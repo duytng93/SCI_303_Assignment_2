@@ -7,7 +7,7 @@ private:
 public:
 	Employee(const std::string name)
 		:fullName(name) {};
-	std::string getName() {
+	std::string getName() const {
 		return fullName;
 	};
 	virtual double weeklySalary() const = 0;				//using virtual key word for polymorphism
